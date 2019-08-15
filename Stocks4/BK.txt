@@ -1,0 +1,7181 @@
+
+--------------------
+record
+{
+  "date": "2017-08-15 08:31:21.160142",
+  "funds": "$1000",
+  "price": "$50.96",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96",
+  "message": "First record"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-15 00:00:00",
+  "funds": "$1000",
+  "price": "$50.96",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-16 00:00:00",
+  "funds": "$1000",
+  "price": "$50.7",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-17 00:00:00",
+  "funds": "$1000",
+  "price": "$49.66",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-18 00:00:00",
+  "funds": "$1000",
+  "price": "$49.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-21 00:00:00",
+  "funds": "$1000",
+  "price": "$50.04",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-22 00:00:00",
+  "funds": "$1000",
+  "price": "$50.49",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-23 00:00:00",
+  "funds": "$1000",
+  "price": "$50.59",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-24 00:00:00",
+  "funds": "$1000",
+  "price": "$50.61",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-25 00:00:00",
+  "funds": "$1000",
+  "price": "$50.48",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-28 00:00:00",
+  "funds": "$1000",
+  "price": "$50.11",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-29 00:00:00",
+  "funds": "$1000",
+  "price": "$49.94",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-30 00:00:00",
+  "funds": "$1000",
+  "price": "$50.2",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-08-31 00:00:00",
+  "funds": "$1000",
+  "price": "$50.12",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-01 00:00:00",
+  "funds": "$1000",
+  "price": "$50.17",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-05 00:00:00",
+  "funds": "$1000",
+  "price": "$49.09",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-06 00:00:00",
+  "funds": "$1000",
+  "price": "$49.15",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-07 00:00:00",
+  "funds": "$1000",
+  "price": "$48.21",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-08 00:00:00",
+  "funds": "$1000",
+  "price": "$48.35",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-11 00:00:00",
+  "funds": "$1000",
+  "price": "$49.4",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-12 00:00:00",
+  "funds": "$1000",
+  "price": "$49.84",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-13 00:00:00",
+  "funds": "$1000",
+  "price": "$49.46",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-14 00:00:00",
+  "funds": "$1000",
+  "price": "$49.02",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-15 00:00:00",
+  "funds": "$1000",
+  "price": "$49.43",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-18 00:00:00",
+  "funds": "$1000",
+  "price": "$49.57",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-19 00:00:00",
+  "funds": "$1000",
+  "price": "$49.89",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-20 00:00:00",
+  "funds": "$1000",
+  "price": "$50.24",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-21 00:00:00",
+  "funds": "$1000",
+  "price": "$50.26",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-22 00:00:00",
+  "funds": "$1000",
+  "price": "$50.21",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-25 00:00:00",
+  "funds": "$1000",
+  "price": "$50.05",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-26 00:00:00",
+  "funds": "$1000",
+  "price": "$49.97",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-27 00:00:00",
+  "funds": "$1000",
+  "price": "$50.58",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-28 00:00:00",
+  "funds": "$1000",
+  "price": "$50.82",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-09-29 00:00:00",
+  "funds": "$1000",
+  "price": "$50.83",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$50.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-02 00:00:00",
+  "funds": "$1000",
+  "price": "$51.44",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$51.44"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-03 00:00:00",
+  "funds": "$1000",
+  "price": "$51.58",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$51.58"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-04 00:00:00",
+  "funds": "$1000",
+  "price": "$51.58",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$51.58"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-05 00:00:00",
+  "funds": "$1000",
+  "price": "$52.18",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.18"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-06 00:00:00",
+  "funds": "$1000",
+  "price": "$52.22",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.22"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-09 00:00:00",
+  "funds": "$1000",
+  "price": "$52.09",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.22"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-10 00:00:00",
+  "funds": "$1000",
+  "price": "$52.4",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.4"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-11 00:00:00",
+  "funds": "$1000",
+  "price": "$52.62",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-12 00:00:00",
+  "funds": "$1000",
+  "price": "$52.48",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-13 00:00:00",
+  "funds": "$1000",
+  "price": "$52.41",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-16 00:00:00",
+  "funds": "$1000",
+  "price": "$52.45",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-17 00:00:00",
+  "funds": "$1000",
+  "price": "$51.73",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-18 00:00:00",
+  "funds": "$1000",
+  "price": "$52.21",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-19 00:00:00",
+  "funds": "$1000",
+  "price": "$50.67",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-20 00:00:00",
+  "funds": "$1000",
+  "price": "$50.93",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-23 00:00:00",
+  "funds": "$1000",
+  "price": "$50.34",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-24 00:00:00",
+  "funds": "$1000",
+  "price": "$50.7",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-25 00:00:00",
+  "funds": "$1000",
+  "price": "$49.61",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-26 00:00:00",
+  "funds": "$1000",
+  "price": "$50.06",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-27 00:00:00",
+  "funds": "$1000",
+  "price": "$49.99",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-30 00:00:00",
+  "funds": "$1000",
+  "price": "$49.75",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-10-31 00:00:00",
+  "funds": "$1000",
+  "price": "$49.55",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-01 00:00:00",
+  "funds": "$1000",
+  "price": "$49.75",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-02 00:00:00",
+  "funds": "$1000",
+  "price": "$49.51",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-03 00:00:00",
+  "funds": "$1000",
+  "price": "$49.44",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-06 00:00:00",
+  "funds": "$1000",
+  "price": "$49.46",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-07 00:00:00",
+  "funds": "$1000",
+  "price": "$49.19",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-08 00:00:00",
+  "funds": "$1000",
+  "price": "$49.33",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-09 00:00:00",
+  "funds": "$1000",
+  "price": "$48.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-10 00:00:00",
+  "funds": "$1000",
+  "price": "$49.05",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-13 00:00:00",
+  "funds": "$1000",
+  "price": "$49.14",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-14 00:00:00",
+  "funds": "$1000",
+  "price": "$49.94",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-15 00:00:00",
+  "funds": "$1000",
+  "price": "$50.03",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-16 00:00:00",
+  "funds": "$1000",
+  "price": "$50.31",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-17 00:00:00",
+  "funds": "$1000",
+  "price": "$50.54",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-20 00:00:00",
+  "funds": "$1000",
+  "price": "$50.59",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-21 00:00:00",
+  "funds": "$1000",
+  "price": "$50.49",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-22 00:00:00",
+  "funds": "$1000",
+  "price": "$50.5",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-24 00:00:00",
+  "funds": "$1000",
+  "price": "$50.31",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-27 00:00:00",
+  "funds": "$1000",
+  "price": "$50.26",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-28 00:00:00",
+  "funds": "$1000",
+  "price": "$51.17",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-29 00:00:00",
+  "funds": "$1000",
+  "price": "$52.41",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.62"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-11-30 00:00:00",
+  "funds": "$1000",
+  "price": "$52.72",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.72"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-01 00:00:00",
+  "funds": "$1000",
+  "price": "$52.44",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.72"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-04 00:00:00",
+  "funds": "$1000",
+  "price": "$52.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-05 00:00:00",
+  "funds": "$1000",
+  "price": "$52.43",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-06 00:00:00",
+  "funds": "$1000",
+  "price": "$52.03",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-07 00:00:00",
+  "funds": "$1000",
+  "price": "$52.22",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-08 00:00:00",
+  "funds": "$1000",
+  "price": "$52.66",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-11 00:00:00",
+  "funds": "$1000",
+  "price": "$52.53",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-12 00:00:00",
+  "funds": "$1000",
+  "price": "$52.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-13 00:00:00",
+  "funds": "$1000",
+  "price": "$52.38",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-14 00:00:00",
+  "funds": "$1000",
+  "price": "$52.03",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-15 00:00:00",
+  "funds": "$1000",
+  "price": "$52.2",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-18 00:00:00",
+  "funds": "$1000",
+  "price": "$52.42",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-19 00:00:00",
+  "funds": "$1000",
+  "price": "$52.2",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-20 00:00:00",
+  "funds": "$1000",
+  "price": "$51.96",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-21 00:00:00",
+  "funds": "$1000",
+  "price": "$52.36",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-22 00:00:00",
+  "funds": "$1000",
+  "price": "$52.01",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-26 00:00:00",
+  "funds": "$1000",
+  "price": "$51.83",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-27 00:00:00",
+  "funds": "$1000",
+  "price": "$51.86",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-28 00:00:00",
+  "funds": "$1000",
+  "price": "$52.13",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2017-12-29 00:00:00",
+  "funds": "$1000",
+  "price": "$51.88",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-02 00:00:00",
+  "funds": "$1000",
+  "price": "$51.84",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-03 00:00:00",
+  "funds": "$1000",
+  "price": "$52.16",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-04 00:00:00",
+  "funds": "$1000",
+  "price": "$52.68",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-05 00:00:00",
+  "funds": "$1000",
+  "price": "$52.81",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$52.95"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-08 00:00:00",
+  "funds": "$1000",
+  "price": "$53.03",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$53.03"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-09 00:00:00",
+  "funds": "$1000",
+  "price": "$53.51",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$53.51"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-10 00:00:00",
+  "funds": "$1000",
+  "price": "$55.19",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$55.19"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-11 00:00:00",
+  "funds": "$1000",
+  "price": "$55.7",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$55.7"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-12 00:00:00",
+  "funds": "$1000",
+  "price": "$56.27",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-16 00:00:00",
+  "funds": "$1000",
+  "price": "$55.42",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-17 00:00:00",
+  "funds": "$1000",
+  "price": "$55.76",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-18 00:00:00",
+  "funds": "$1000",
+  "price": "$53.31",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-19 00:00:00",
+  "funds": "$1000",
+  "price": "$54.52",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-22 00:00:00",
+  "funds": "$1000",
+  "price": "$55.59",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-23 00:00:00",
+  "funds": "$1000",
+  "price": "$55.59",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-24 00:00:00",
+  "funds": "$1000",
+  "price": "$55.64",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-25 00:00:00",
+  "funds": "$1000",
+  "price": "$54.76",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-26 00:00:00",
+  "funds": "$1000",
+  "price": "$55.65",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-29 00:00:00",
+  "funds": "$1000",
+  "price": "$55.63",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-30 00:00:00",
+  "funds": "$1000",
+  "price": "$54.84",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-01-31 00:00:00",
+  "funds": "$1000",
+  "price": "$54.84",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-01 00:00:00",
+  "funds": "$1000",
+  "price": "$55.61",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-02 00:00:00",
+  "funds": "$1000",
+  "price": "$54.48",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-05 00:00:00",
+  "funds": "$1000",
+  "price": "$52.6",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-06 00:00:00",
+  "funds": "$1000",
+  "price": "$53.67",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-07 00:00:00",
+  "funds": "$1000",
+  "price": "$53.52",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-08 00:00:00",
+  "funds": "$1000",
+  "price": "$51.54",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-09 00:00:00",
+  "funds": "$1000",
+  "price": "$52.31",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-12 00:00:00",
+  "funds": "$1000",
+  "price": "$52.82",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-13 00:00:00",
+  "funds": "$1000",
+  "price": "$53.01",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-14 00:00:00",
+  "funds": "$1000",
+  "price": "$54.14",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-15 00:00:00",
+  "funds": "$1000",
+  "price": "$54.32",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-16 00:00:00",
+  "funds": "$1000",
+  "price": "$54.4",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-20 00:00:00",
+  "funds": "$1000",
+  "price": "$54.57",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-21 00:00:00",
+  "funds": "$1000",
+  "price": "$54.6",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-22 00:00:00",
+  "funds": "$1000",
+  "price": "$54.07",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-23 00:00:00",
+  "funds": "$1000",
+  "price": "$55.03",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-26 00:00:00",
+  "funds": "$1000",
+  "price": "$56.27",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-27 00:00:00",
+  "funds": "$1000",
+  "price": "$56.09",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-02-28 00:00:00",
+  "funds": "$1000",
+  "price": "$55.16",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-01 00:00:00",
+  "funds": "$1000",
+  "price": "$53.69",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-02 00:00:00",
+  "funds": "$1000",
+  "price": "$53.55",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-05 00:00:00",
+  "funds": "$1000",
+  "price": "$54.56",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-06 00:00:00",
+  "funds": "$1000",
+  "price": "$55.0",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-07 00:00:00",
+  "funds": "$1000",
+  "price": "$55.03",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-08 00:00:00",
+  "funds": "$1000",
+  "price": "$53.86",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-09 00:00:00",
+  "funds": "$1000",
+  "price": "$55.35",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-12 00:00:00",
+  "funds": "$1000",
+  "price": "$54.59",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-13 00:00:00",
+  "funds": "$1000",
+  "price": "$54.12",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-14 00:00:00",
+  "funds": "$1000",
+  "price": "$53.07",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-15 00:00:00",
+  "funds": "$1000",
+  "price": "$53.05",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-16 00:00:00",
+  "funds": "$1000",
+  "price": "$53.2",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-19 00:00:00",
+  "funds": "$1000",
+  "price": "$52.56",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-20 00:00:00",
+  "funds": "$1000",
+  "price": "$52.64",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-21 00:00:00",
+  "funds": "$1000",
+  "price": "$52.82",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-22 00:00:00",
+  "funds": "$1000",
+  "price": "$50.31",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$50.31"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-23 00:00:00",
+  "funds": "$1000",
+  "price": "$49.07",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-26 00:00:00",
+  "funds": "$1000",
+  "price": "$50.43",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "message": "purchase transaction"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-27 00:00:00",
+  "funds": "$1000",
+  "price": "$49.06",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-28 00:00:00",
+  "funds": "$1000",
+  "price": "$48.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-03-29 00:00:00",
+  "funds": "$1000",
+  "price": "$49.84",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-02 00:00:00",
+  "funds": "$1000",
+  "price": "$48.5",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-03 00:00:00",
+  "funds": "$1000",
+  "price": "$49.32",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-04 00:00:00",
+  "funds": "$1000",
+  "price": "$49.79",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-05 00:00:00",
+  "funds": "$1000",
+  "price": "$50.03",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-06 00:00:00",
+  "funds": "$1000",
+  "price": "$48.7",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-09 00:00:00",
+  "funds": "$1000",
+  "price": "$48.86",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-10 00:00:00",
+  "funds": "$1000",
+  "price": "$49.69",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-11 00:00:00",
+  "funds": "$1000",
+  "price": "$49.28",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-12 00:00:00",
+  "funds": "$1000",
+  "price": "$50.3",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-13 00:00:00",
+  "funds": "$1000",
+  "price": "$49.88",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-16 00:00:00",
+  "funds": "$1000",
+  "price": "$50.28",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-17 00:00:00",
+  "funds": "$1000",
+  "price": "$50.48",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-18 00:00:00",
+  "funds": "$1000",
+  "price": "$50.54",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-19 00:00:00",
+  "funds": "$1000",
+  "price": "$53.43",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-20 00:00:00",
+  "funds": "$1000",
+  "price": "$53.6",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-23 00:00:00",
+  "funds": "$1000",
+  "price": "$53.9",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-24 00:00:00",
+  "funds": "$1000",
+  "price": "$53.57",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-25 00:00:00",
+  "funds": "$1000",
+  "price": "$53.58",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-26 00:00:00",
+  "funds": "$1000",
+  "price": "$53.62",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-27 00:00:00",
+  "funds": "$1000",
+  "price": "$53.5",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-04-30 00:00:00",
+  "funds": "$1000",
+  "price": "$52.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-01 00:00:00",
+  "funds": "$1000",
+  "price": "$52.64",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-02 00:00:00",
+  "funds": "$1000",
+  "price": "$52.45",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-03 00:00:00",
+  "funds": "$1000",
+  "price": "$52.31",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-04 00:00:00",
+  "funds": "$1000",
+  "price": "$52.93",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-07 00:00:00",
+  "funds": "$1000",
+  "price": "$54.0",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-08 00:00:00",
+  "funds": "$1000",
+  "price": "$54.48",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-09 00:00:00",
+  "funds": "$1000",
+  "price": "$55.23",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-10 00:00:00",
+  "funds": "$1000",
+  "price": "$55.63",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$55.63"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-11 00:00:00",
+  "funds": "$1000",
+  "price": "$55.54",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$55.63"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-14 00:00:00",
+  "funds": "$1000",
+  "price": "$55.66",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$55.66"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-15 00:00:00",
+  "funds": "$1000",
+  "price": "$55.26",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$55.66"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-16 00:00:00",
+  "funds": "$1000",
+  "price": "$55.43",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$55.66"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-17 00:00:00",
+  "funds": "$1000",
+  "price": "$55.64",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$55.66"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-18 00:00:00",
+  "funds": "$1000",
+  "price": "$55.33",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$55.66"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-21 00:00:00",
+  "funds": "$1000",
+  "price": "$56.07",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-22 00:00:00",
+  "funds": "$1000",
+  "price": "$55.94",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-23 00:00:00",
+  "funds": "$1000",
+  "price": "$55.81",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-24 00:00:00",
+  "funds": "$1000",
+  "price": "$55.6",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-25 00:00:00",
+  "funds": "$1000",
+  "price": "$55.37",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.27",
+  "b": "$49.07",
+  "c": "$50.43",
+  "d": "$56.07",
+  "e": "$55.37",
+  "message": "sale transaction"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-29 00:00:00",
+  "funds": "$1000",
+  "price": "$53.61",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-30 00:00:00",
+  "funds": "$1000",
+  "price": "$53.82",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-05-31 00:00:00",
+  "funds": "$1000",
+  "price": "$53.18",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-01 00:00:00",
+  "funds": "$1000",
+  "price": "$53.77",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-04 00:00:00",
+  "funds": "$1000",
+  "price": "$54.17",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-05 00:00:00",
+  "funds": "$1000",
+  "price": "$54.0",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-06 00:00:00",
+  "funds": "$1000",
+  "price": "$54.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-07 00:00:00",
+  "funds": "$1000",
+  "price": "$56.0",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-08 00:00:00",
+  "funds": "$1000",
+  "price": "$55.91",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-11 00:00:00",
+  "funds": "$1000",
+  "price": "$56.05",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-12 00:00:00",
+  "funds": "$1000",
+  "price": "$56.02",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-13 00:00:00",
+  "funds": "$1000",
+  "price": "$55.68",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-14 00:00:00",
+  "funds": "$1000",
+  "price": "$55.18",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-15 00:00:00",
+  "funds": "$1000",
+  "price": "$55.3",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-18 00:00:00",
+  "funds": "$1000",
+  "price": "$55.6",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-19 00:00:00",
+  "funds": "$1000",
+  "price": "$55.7",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-20 00:00:00",
+  "funds": "$1000",
+  "price": "$55.73",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-21 00:00:00",
+  "funds": "$1000",
+  "price": "$55.52",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-22 00:00:00",
+  "funds": "$1000",
+  "price": "$55.13",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-25 00:00:00",
+  "funds": "$1000",
+  "price": "$54.08",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-26 00:00:00",
+  "funds": "$1000",
+  "price": "$53.6",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-27 00:00:00",
+  "funds": "$1000",
+  "price": "$52.65",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-28 00:00:00",
+  "funds": "$1000",
+  "price": "$52.75",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-06-29 00:00:00",
+  "funds": "$1000",
+  "price": "$52.39",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-02 00:00:00",
+  "funds": "$1000",
+  "price": "$52.54",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-03 00:00:00",
+  "funds": "$1000",
+  "price": "$51.67",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-05 00:00:00",
+  "funds": "$1000",
+  "price": "$51.68",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-06 00:00:00",
+  "funds": "$1000",
+  "price": "$51.68",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-09 00:00:00",
+  "funds": "$1000",
+  "price": "$52.56",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-10 00:00:00",
+  "funds": "$1000",
+  "price": "$52.48",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-11 00:00:00",
+  "funds": "$1000",
+  "price": "$51.86",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-12 00:00:00",
+  "funds": "$1000",
+  "price": "$51.97",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-13 00:00:00",
+  "funds": "$1000",
+  "price": "$51.51",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-16 00:00:00",
+  "funds": "$1000",
+  "price": "$52.16",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-17 00:00:00",
+  "funds": "$1000",
+  "price": "$52.5",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-18 00:00:00",
+  "funds": "$1000",
+  "price": "$54.05",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-19 00:00:00",
+  "funds": "$1000",
+  "price": "$51.22",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-20 00:00:00",
+  "funds": "$1000",
+  "price": "$50.96",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-23 00:00:00",
+  "funds": "$1000",
+  "price": "$51.73",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-24 00:00:00",
+  "funds": "$1000",
+  "price": "$52.64",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-25 00:00:00",
+  "funds": "$1000",
+  "price": "$51.78",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-26 00:00:00",
+  "funds": "$1000",
+  "price": "$51.87",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-27 00:00:00",
+  "funds": "$1000",
+  "price": "$51.88",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-30 00:00:00",
+  "funds": "$1000",
+  "price": "$52.2",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-07-31 00:00:00",
+  "funds": "$1000",
+  "price": "$52.21",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-01 00:00:00",
+  "funds": "$1000",
+  "price": "$52.03",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-02 00:00:00",
+  "funds": "$1000",
+  "price": "$51.39",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-03 00:00:00",
+  "funds": "$1000",
+  "price": "$51.53",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-06 00:00:00",
+  "funds": "$1000",
+  "price": "$51.78",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-07 00:00:00",
+  "funds": "$1000",
+  "price": "$51.7",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-08 00:00:00",
+  "funds": "$1000",
+  "price": "$51.89",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-09 00:00:00",
+  "funds": "$1000",
+  "price": "$51.06",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-10 00:00:00",
+  "funds": "$1000",
+  "price": "$49.82",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$49.82"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-13 00:00:00",
+  "funds": "$1000",
+  "price": "$48.96",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-14 00:00:00",
+  "funds": "$1000",
+  "price": "$49.77",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77",
+  "message": "purchase transaction"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-15 00:00:00",
+  "funds": "$1000",
+  "price": "$49.76",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-16 00:00:00",
+  "funds": "$1000",
+  "price": "$50.31",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-17 00:00:00",
+  "funds": "$1000",
+  "price": "$50.48",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-20 00:00:00",
+  "funds": "$1000",
+  "price": "$50.72",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-21 00:00:00",
+  "funds": "$1000",
+  "price": "$51.31",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-22 00:00:00",
+  "funds": "$1000",
+  "price": "$51.27",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-23 00:00:00",
+  "funds": "$1000",
+  "price": "$51.1",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-24 00:00:00",
+  "funds": "$1000",
+  "price": "$51.33",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-27 00:00:00",
+  "funds": "$1000",
+  "price": "$51.74",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-28 00:00:00",
+  "funds": "$1000",
+  "price": "$51.65",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-29 00:00:00",
+  "funds": "$1000",
+  "price": "$51.27",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-30 00:00:00",
+  "funds": "$1000",
+  "price": "$51.0",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-08-31 00:00:00",
+  "funds": "$1000",
+  "price": "$50.93",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-04 00:00:00",
+  "funds": "$1000",
+  "price": "$51.17",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-05 00:00:00",
+  "funds": "$1000",
+  "price": "$51.02",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-06 00:00:00",
+  "funds": "$1000",
+  "price": "$50.96",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-07 00:00:00",
+  "funds": "$1000",
+  "price": "$50.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-10 00:00:00",
+  "funds": "$1000",
+  "price": "$50.81",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-11 00:00:00",
+  "funds": "$1000",
+  "price": "$51.01",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-12 00:00:00",
+  "funds": "$1000",
+  "price": "$50.79",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-13 00:00:00",
+  "funds": "$1000",
+  "price": "$50.02",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-14 00:00:00",
+  "funds": "$1000",
+  "price": "$50.44",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-17 00:00:00",
+  "funds": "$1000",
+  "price": "$50.02",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-18 00:00:00",
+  "funds": "$1000",
+  "price": "$50.24",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-19 00:00:00",
+  "funds": "$1000",
+  "price": "$51.2",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-20 00:00:00",
+  "funds": "$1000",
+  "price": "$52.08",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-21 00:00:00",
+  "funds": "$1000",
+  "price": "$52.14",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-24 00:00:00",
+  "funds": "$1000",
+  "price": "$51.14",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-25 00:00:00",
+  "funds": "$1000",
+  "price": "$51.08",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-26 00:00:00",
+  "funds": "$1000",
+  "price": "$50.7",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-27 00:00:00",
+  "funds": "$1000",
+  "price": "$50.33",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-09-28 00:00:00",
+  "funds": "$1000",
+  "price": "$49.79",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-01 00:00:00",
+  "funds": "$1000",
+  "price": "$50.68",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-02 00:00:00",
+  "funds": "$1000",
+  "price": "$50.53",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-03 00:00:00",
+  "funds": "$1000",
+  "price": "$50.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-04 00:00:00",
+  "funds": "$1000",
+  "price": "$51.44",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-05 00:00:00",
+  "funds": "$1000",
+  "price": "$51.35",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-08 00:00:00",
+  "funds": "$1000",
+  "price": "$51.54",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-09 00:00:00",
+  "funds": "$1000",
+  "price": "$51.0",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-10 00:00:00",
+  "funds": "$1000",
+  "price": "$49.53",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-11 00:00:00",
+  "funds": "$1000",
+  "price": "$48.03",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-12 00:00:00",
+  "funds": "$1000",
+  "price": "$47.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-15 00:00:00",
+  "funds": "$1000",
+  "price": "$47.31",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-16 00:00:00",
+  "funds": "$1000",
+  "price": "$48.19",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-17 00:00:00",
+  "funds": "$1000",
+  "price": "$48.0",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-18 00:00:00",
+  "funds": "$1000",
+  "price": "$46.67",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-19 00:00:00",
+  "funds": "$1000",
+  "price": "$46.29",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-22 00:00:00",
+  "funds": "$1000",
+  "price": "$45.38",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-23 00:00:00",
+  "funds": "$1000",
+  "price": "$45.19",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-24 00:00:00",
+  "funds": "$1000",
+  "price": "$44.27",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-25 00:00:00",
+  "funds": "$1000",
+  "price": "$45.07",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-26 00:00:00",
+  "funds": "$1000",
+  "price": "$44.4",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-29 00:00:00",
+  "funds": "$1000",
+  "price": "$44.97",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-30 00:00:00",
+  "funds": "$1000",
+  "price": "$46.1",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-10-31 00:00:00",
+  "funds": "$1000",
+  "price": "$46.5",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-01 00:00:00",
+  "funds": "$1000",
+  "price": "$46.69",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-02 00:00:00",
+  "funds": "$1000",
+  "price": "$46.39",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-05 00:00:00",
+  "funds": "$1000",
+  "price": "$47.13",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-06 00:00:00",
+  "funds": "$1000",
+  "price": "$47.48",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-07 00:00:00",
+  "funds": "$1000",
+  "price": "$47.92",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-08 00:00:00",
+  "funds": "$1000",
+  "price": "$48.18",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-09 00:00:00",
+  "funds": "$1000",
+  "price": "$47.65",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-12 00:00:00",
+  "funds": "$1000",
+  "price": "$47.14",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-13 00:00:00",
+  "funds": "$1000",
+  "price": "$47.36",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-14 00:00:00",
+  "funds": "$1000",
+  "price": "$47.39",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-15 00:00:00",
+  "funds": "$1000",
+  "price": "$48.36",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-16 00:00:00",
+  "funds": "$1000",
+  "price": "$48.53",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-19 00:00:00",
+  "funds": "$1000",
+  "price": "$49.25",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-20 00:00:00",
+  "funds": "$1000",
+  "price": "$48.52",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-21 00:00:00",
+  "funds": "$1000",
+  "price": "$49.09",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-23 00:00:00",
+  "funds": "$1000",
+  "price": "$48.99",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-26 00:00:00",
+  "funds": "$1000",
+  "price": "$50.04",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-27 00:00:00",
+  "funds": "$1000",
+  "price": "$50.47",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-28 00:00:00",
+  "funds": "$1000",
+  "price": "$50.71",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-29 00:00:00",
+  "funds": "$1000",
+  "price": "$49.8",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-11-30 00:00:00",
+  "funds": "$1000",
+  "price": "$50.42",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-03 00:00:00",
+  "funds": "$1000",
+  "price": "$49.76",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-04 00:00:00",
+  "funds": "$1000",
+  "price": "$47.85",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-06 00:00:00",
+  "funds": "$1000",
+  "price": "$47.01",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-07 00:00:00",
+  "funds": "$1000",
+  "price": "$46.88",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-10 00:00:00",
+  "funds": "$1000",
+  "price": "$46.73",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-11 00:00:00",
+  "funds": "$1000",
+  "price": "$46.84",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-12 00:00:00",
+  "funds": "$1000",
+  "price": "$47.22",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-13 00:00:00",
+  "funds": "$1000",
+  "price": "$47.25",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-14 00:00:00",
+  "funds": "$1000",
+  "price": "$47.82",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-17 00:00:00",
+  "funds": "$1000",
+  "price": "$48.13",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-18 00:00:00",
+  "funds": "$1000",
+  "price": "$45.92",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-19 00:00:00",
+  "funds": "$1000",
+  "price": "$44.71",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-20 00:00:00",
+  "funds": "$1000",
+  "price": "$44.23",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-21 00:00:00",
+  "funds": "$1000",
+  "price": "$43.86",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-24 00:00:00",
+  "funds": "$1000",
+  "price": "$43.71",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-26 00:00:00",
+  "funds": "$1000",
+  "price": "$45.36",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-27 00:00:00",
+  "funds": "$1000",
+  "price": "$46.0",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-28 00:00:00",
+  "funds": "$1000",
+  "price": "$45.84",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2018-12-31 00:00:00",
+  "funds": "$1000",
+  "price": "$46.25",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-02 00:00:00",
+  "funds": "$1000",
+  "price": "$46.67",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-03 00:00:00",
+  "funds": "$1000",
+  "price": "$45.75",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-04 00:00:00",
+  "funds": "$1000",
+  "price": "$47.07",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-07 00:00:00",
+  "funds": "$1000",
+  "price": "$46.97",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-08 00:00:00",
+  "funds": "$1000",
+  "price": "$46.79",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-09 00:00:00",
+  "funds": "$1000",
+  "price": "$46.93",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-10 00:00:00",
+  "funds": "$1000",
+  "price": "$46.64",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-11 00:00:00",
+  "funds": "$1000",
+  "price": "$47.24",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-14 00:00:00",
+  "funds": "$1000",
+  "price": "$47.58",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-15 00:00:00",
+  "funds": "$1000",
+  "price": "$48.55",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-16 00:00:00",
+  "funds": "$1000",
+  "price": "$49.55",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-17 00:00:00",
+  "funds": "$1000",
+  "price": "$50.63",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-18 00:00:00",
+  "funds": "$1000",
+  "price": "$51.74",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-22 00:00:00",
+  "funds": "$1000",
+  "price": "$51.67",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-23 00:00:00",
+  "funds": "$1000",
+  "price": "$52.13",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-24 00:00:00",
+  "funds": "$1000",
+  "price": "$52.77",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-25 00:00:00",
+  "funds": "$1000",
+  "price": "$52.74",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-28 00:00:00",
+  "funds": "$1000",
+  "price": "$52.78",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-29 00:00:00",
+  "funds": "$1000",
+  "price": "$51.96",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-30 00:00:00",
+  "funds": "$1000",
+  "price": "$51.88",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-01-31 00:00:00",
+  "funds": "$1000",
+  "price": "$51.68",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-01 00:00:00",
+  "funds": "$1000",
+  "price": "$51.97",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-04 00:00:00",
+  "funds": "$1000",
+  "price": "$51.74",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-05 00:00:00",
+  "funds": "$1000",
+  "price": "$51.97",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-06 00:00:00",
+  "funds": "$1000",
+  "price": "$51.68",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-07 00:00:00",
+  "funds": "$1000",
+  "price": "$51.47",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-08 00:00:00",
+  "funds": "$1000",
+  "price": "$51.19",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-11 00:00:00",
+  "funds": "$1000",
+  "price": "$51.37",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-12 00:00:00",
+  "funds": "$1000",
+  "price": "$52.19",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-13 00:00:00",
+  "funds": "$1000",
+  "price": "$51.79",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-14 00:00:00",
+  "funds": "$1000",
+  "price": "$51.13",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-15 00:00:00",
+  "funds": "$1000",
+  "price": "$52.34",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-19 00:00:00",
+  "funds": "$1000",
+  "price": "$52.34",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-20 00:00:00",
+  "funds": "$1000",
+  "price": "$52.66",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-21 00:00:00",
+  "funds": "$1000",
+  "price": "$52.3",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-22 00:00:00",
+  "funds": "$1000",
+  "price": "$52.57",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-25 00:00:00",
+  "funds": "$1000",
+  "price": "$52.28",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-26 00:00:00",
+  "funds": "$1000",
+  "price": "$52.39",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-27 00:00:00",
+  "funds": "$1000",
+  "price": "$52.1",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-02-28 00:00:00",
+  "funds": "$1000",
+  "price": "$51.84",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-01 00:00:00",
+  "funds": "$1000",
+  "price": "$52.04",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-04 00:00:00",
+  "funds": "$1000",
+  "price": "$51.27",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-05 00:00:00",
+  "funds": "$1000",
+  "price": "$52.0",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-06 00:00:00",
+  "funds": "$1000",
+  "price": "$51.42",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-07 00:00:00",
+  "funds": "$1000",
+  "price": "$50.6",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-08 00:00:00",
+  "funds": "$1000",
+  "price": "$50.85",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-11 00:00:00",
+  "funds": "$1000",
+  "price": "$51.19",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-12 00:00:00",
+  "funds": "$1000",
+  "price": "$51.27",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-13 00:00:00",
+  "funds": "$1000",
+  "price": "$51.8",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-14 00:00:00",
+  "funds": "$1000",
+  "price": "$52.11",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-15 00:00:00",
+  "funds": "$1000",
+  "price": "$52.47",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-18 00:00:00",
+  "funds": "$1000",
+  "price": "$53.32",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-19 00:00:00",
+  "funds": "$1000",
+  "price": "$52.47",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-20 00:00:00",
+  "funds": "$1000",
+  "price": "$51.34",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-21 00:00:00",
+  "funds": "$1000",
+  "price": "$51.25",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-22 00:00:00",
+  "funds": "$1000",
+  "price": "$49.88",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-25 00:00:00",
+  "funds": "$1000",
+  "price": "$49.66",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-26 00:00:00",
+  "funds": "$1000",
+  "price": "$50.22",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-27 00:00:00",
+  "funds": "$1000",
+  "price": "$49.48",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-28 00:00:00",
+  "funds": "$1000",
+  "price": "$49.77",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-03-29 00:00:00",
+  "funds": "$1000",
+  "price": "$49.81",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-01 00:00:00",
+  "funds": "$1000",
+  "price": "$50.83",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-02 00:00:00",
+  "funds": "$1000",
+  "price": "$50.72",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-03 00:00:00",
+  "funds": "$1000",
+  "price": "$50.61",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-04 00:00:00",
+  "funds": "$1000",
+  "price": "$50.82",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-05 00:00:00",
+  "funds": "$1000",
+  "price": "$50.55",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-08 00:00:00",
+  "funds": "$1000",
+  "price": "$50.62",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-09 00:00:00",
+  "funds": "$1000",
+  "price": "$50.36",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-10 00:00:00",
+  "funds": "$1000",
+  "price": "$50.66",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-11 00:00:00",
+  "funds": "$1000",
+  "price": "$51.06",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-12 00:00:00",
+  "funds": "$1000",
+  "price": "$52.16",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-15 00:00:00",
+  "funds": "$1000",
+  "price": "$51.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-16 00:00:00",
+  "funds": "$1000",
+  "price": "$52.78",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-17 00:00:00",
+  "funds": "$1000",
+  "price": "$47.76",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-18 00:00:00",
+  "funds": "$1000",
+  "price": "$47.82",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-22 00:00:00",
+  "funds": "$1000",
+  "price": "$47.6",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-23 00:00:00",
+  "funds": "$1000",
+  "price": "$47.87",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-24 00:00:00",
+  "funds": "$1000",
+  "price": "$47.56",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-25 00:00:00",
+  "funds": "$1000",
+  "price": "$47.95",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-26 00:00:00",
+  "funds": "$1000",
+  "price": "$48.11",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-29 00:00:00",
+  "funds": "$1000",
+  "price": "$49.06",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-04-30 00:00:00",
+  "funds": "$1000",
+  "price": "$49.33",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-01 00:00:00",
+  "funds": "$1000",
+  "price": "$49.11",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-02 00:00:00",
+  "funds": "$1000",
+  "price": "$49.5",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-03 00:00:00",
+  "funds": "$1000",
+  "price": "$49.64",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-06 00:00:00",
+  "funds": "$1000",
+  "price": "$49.01",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-07 00:00:00",
+  "funds": "$1000",
+  "price": "$47.82",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-08 00:00:00",
+  "funds": "$1000",
+  "price": "$47.74",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-09 00:00:00",
+  "funds": "$1000",
+  "price": "$47.47",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-10 00:00:00",
+  "funds": "$1000",
+  "price": "$47.78",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-13 00:00:00",
+  "funds": "$1000",
+  "price": "$46.84",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-14 00:00:00",
+  "funds": "$1000",
+  "price": "$46.7",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-15 00:00:00",
+  "funds": "$1000",
+  "price": "$46.21",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-16 00:00:00",
+  "funds": "$1000",
+  "price": "$46.23",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-17 00:00:00",
+  "funds": "$1000",
+  "price": "$45.78",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-20 00:00:00",
+  "funds": "$1000",
+  "price": "$45.67",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-21 00:00:00",
+  "funds": "$1000",
+  "price": "$45.91",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-22 00:00:00",
+  "funds": "$1000",
+  "price": "$45.86",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-23 00:00:00",
+  "funds": "$1000",
+  "price": "$44.94",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-24 00:00:00",
+  "funds": "$1000",
+  "price": "$44.86",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-28 00:00:00",
+  "funds": "$1000",
+  "price": "$44.04",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-29 00:00:00",
+  "funds": "$1000",
+  "price": "$43.77",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-30 00:00:00",
+  "funds": "$1000",
+  "price": "$42.97",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-05-31 00:00:00",
+  "funds": "$1000",
+  "price": "$42.41",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-03 00:00:00",
+  "funds": "$1000",
+  "price": "$42.77",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-04 00:00:00",
+  "funds": "$1000",
+  "price": "$44.0",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-05 00:00:00",
+  "funds": "$1000",
+  "price": "$43.32",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-06 00:00:00",
+  "funds": "$1000",
+  "price": "$43.53",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-07 00:00:00",
+  "funds": "$1000",
+  "price": "$44.11",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-10 00:00:00",
+  "funds": "$1000",
+  "price": "$44.61",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-11 00:00:00",
+  "funds": "$1000",
+  "price": "$44.21",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-12 00:00:00",
+  "funds": "$1000",
+  "price": "$43.81",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-13 00:00:00",
+  "funds": "$1000",
+  "price": "$44.24",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-14 00:00:00",
+  "funds": "$1000",
+  "price": "$44.2",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-17 00:00:00",
+  "funds": "$1000",
+  "price": "$43.66",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-18 00:00:00",
+  "funds": "$1000",
+  "price": "$42.96",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-19 00:00:00",
+  "funds": "$1000",
+  "price": "$42.41",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-20 00:00:00",
+  "funds": "$1000",
+  "price": "$42.84",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-21 00:00:00",
+  "funds": "$1000",
+  "price": "$43.13",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-24 00:00:00",
+  "funds": "$1000",
+  "price": "$42.8",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-25 00:00:00",
+  "funds": "$1000",
+  "price": "$43.15",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-26 00:00:00",
+  "funds": "$1000",
+  "price": "$42.84",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-27 00:00:00",
+  "funds": "$1000",
+  "price": "$43.11",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-06-28 00:00:00",
+  "funds": "$1000",
+  "price": "$43.86",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-01 00:00:00",
+  "funds": "$1000",
+  "price": "$44.18",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-02 00:00:00",
+  "funds": "$1000",
+  "price": "$43.94",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-03 00:00:00",
+  "funds": "$1000",
+  "price": "$44.35",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-05 00:00:00",
+  "funds": "$1000",
+  "price": "$44.24",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-08 00:00:00",
+  "funds": "$1000",
+  "price": "$42.75",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-09 00:00:00",
+  "funds": "$1000",
+  "price": "$43.12",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-10 00:00:00",
+  "funds": "$1000",
+  "price": "$42.76",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-11 00:00:00",
+  "funds": "$1000",
+  "price": "$43.36",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-12 00:00:00",
+  "funds": "$1000",
+  "price": "$43.27",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-15 00:00:00",
+  "funds": "$1000",
+  "price": "$42.87",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-16 00:00:00",
+  "funds": "$1000",
+  "price": "$42.83",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-17 00:00:00",
+  "funds": "$1000",
+  "price": "$43.83",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-18 00:00:00",
+  "funds": "$1000",
+  "price": "$44.57",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-19 00:00:00",
+  "funds": "$1000",
+  "price": "$44.97",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-22 00:00:00",
+  "funds": "$1000",
+  "price": "$45.52",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-23 00:00:00",
+  "funds": "$1000",
+  "price": "$46.41",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-24 00:00:00",
+  "funds": "$1000",
+  "price": "$46.79",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-25 00:00:00",
+  "funds": "$1000",
+  "price": "$46.98",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-26 00:00:00",
+  "funds": "$1000",
+  "price": "$47.6",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-29 00:00:00",
+  "funds": "$1000",
+  "price": "$46.82",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-30 00:00:00",
+  "funds": "$1000",
+  "price": "$47.04",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-07-31 00:00:00",
+  "funds": "$1000",
+  "price": "$46.92",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-08-01 00:00:00",
+  "funds": "$1000",
+  "price": "$45.97",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-08-02 00:00:00",
+  "funds": "$1000",
+  "price": "$46.03",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-08-05 00:00:00",
+  "funds": "$1000",
+  "price": "$45.06",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-08-06 00:00:00",
+  "funds": "$1000",
+  "price": "$45.45",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-08-07 00:00:00",
+  "funds": "$1000",
+  "price": "$44.73",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-08-08 00:00:00",
+  "funds": "$1000",
+  "price": "$45.57",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-08-09 00:00:00",
+  "funds": "$1000",
+  "price": "$45.81",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-08-12 00:00:00",
+  "funds": "$1000",
+  "price": "$44.38",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-08-13 00:00:00",
+  "funds": "$1000",
+  "price": "$43.67",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-08-14 00:00:00",
+  "funds": "$1000",
+  "price": "$41.96",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77"
+}
+--------------------
+
+--------------------
+record
+{
+  "date": "2019-08-14 00:00:00",
+  "funds": "$1000",
+  "price": "$41.96",
+  "stockSymbol": "BK",
+  "numStocksOwned": 0,
+  "moneyInvested": "$0",
+  "a": "$56.07",
+  "b": "$48.96",
+  "c": "$49.77",
+  "message": "Final record"
+}
+--------------------
