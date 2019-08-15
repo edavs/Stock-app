@@ -1,30 +1,23 @@
-import json
+import Record, Investment, ValleyStrategy
 
-# A portfolio holds data on the user's fund allocations
-class Portfolio:
-	cash = None
-	date = None
-	outputFilePath = None
-	stock = {
-		"Symbol": "",
-		"Count": 0,
-		"Value": 0
-		}
-	value = None
+# A Portfolio holds data on the user's fund allocations
+class Portfolio(Record):
+	totalValue = 0
+	cashValue = 0
+	stocksValue = 0
+	investments = [Investment.Investment()]
+	valleyStrategies = [ValleyStrategy.ValleyStrategy()]
 	
 	# Parameterized constructor
-	def __init__(self, cash=0, date=None, outputFilePath=None, stock=stock, value=0):
-		self.cash = cash
-		self.date = date
-		self.outputFilePath = outputFilePath
-		self.stock = stock
-		self.value = value
-		
-		# Clear the output file
-		open(self.outputFilePath, 'w').close()
+	def __init__(self, totalValue=0, cashValue=0, stocksValue=0, investments=[Investment.Investment()], valleyStrategies=[ValleyStrategy.ValleyStrategy()]):
+		self.totalValue = totalValue
+		self.cashValue = cashValue
+		self.stocksValue = stocksValue
+		self.investments = investments
+		self.valleyStrategies = valleyStrategies
 	
 	# Write to the output file
-	def outputToFile(self, message=None):
+	def outputToFile(self, message):
 		# Append the available data to the output file in a json string
 		f = open(self.outputFilePath, 'a')
 		f.write("\n--------------------\nPortfolio\n")
@@ -38,38 +31,28 @@ class Portfolio:
 		f.close()
 	
 	# Getters and setters
-	def getCash(self):
-		return self.cash
+	def getCashValue(self):
+		return self.cashValue
+	def setCashValue(self, newCashValue):
+		self.cashValueV = newCashValue
 	
-	def setCash(self, newCash):
-		self.cash = newCash
+	def getTotalValue(self):
+		return self.totalValue
+	def setTotalValue(self, newTotalValue):
+		self.totalValue = newTotalValue
 	
-	def getDate(self):
-		return self.date
+	def getStocksValue(self):
+		return self.stocksValue
+	def setStocksValue(self, newStocksValue):
+		self.stocksValue = newStocksValue
+		
+	def getInvestments(self):
+		return self.investments
+	def setInvestments(self, newInvestments):
+		self.investments = newInvestments
+
+	def getValleyStrategies(self):
+		return self.valleyStrategies
+	def setValleyStrategies(self, newValleyStrategies):
+		self.valleyStrategies = newValleyStrategies
 	
-	def setDate(self, newDate):
-		self.date = newDate
-	
-	def getOutputFilePath(self):
-		return self.outputFilePath
-	
-	def setOutputFilePath(self, newOutputFilePath):
-		self.outputFilePath = newOutputFilePath
-	
-	def getStock(self, key=None):
-		if key is not None:
-			return self.stock[key]
-		else:
-			return self.stock
-	
-	def setStock(self, key=None, newValue=None, newStock=None):
-		if key is not None:
-			self.stock[key] = newValue
-		else:
-			self.stock = newStock
-	
-	def getValue(self):
-		return self.value
-	
-	def setValue(self, newValue):
-		self.value = newValue
