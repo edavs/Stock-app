@@ -1,57 +1,56 @@
+"""
+-Eduardo Davila
+-08/15/2019
+-Record.py
+-TODO: Describe the file
+"""
+
 import datetime as dt
 import json
 
-# Abstract class. Parent class to all the other classes
+# Abstract class.
+# Parent class to all the other classes
 class Record:
+	## Properties ##
 	id = 0
 	date = dt.datetime.now()
 	message = ""
-	outputFilePath = "Output.txt"
-	
+	outputDestination = "./Output.txt"
+		
+	## Constructors ##
 	# Parameterized constructor
-	def __init__(self, id=0, date=dt.datetime.now(), message="", outputFilePath="Output.txt"):
+	def __init__(self, id=0, date=dt.datetime.now(), outputDestination="./Record.txt", message=""):
 		self.id = id
 		self.date = date
+		self.outputDestination = outputDestination
 		self.message = message
-		self.outputFilePath = outputFilePath
 		
 		# Clear the output file
-		open(self.outputFilePath, 'w').close()
+		open(self.outputDestination, 'w').close()
 	
-	# Output data to a file. This function should be virtual and implemented by each child
-	def outputToFile(self, message):		
-		# Append the available data to the output file in a json string
-		f = open(self.outputFilePath, 'a')
-		f.write("\n--------------------\nrecord\n")
-		info = {"date": str(self.date)}
-		if self.stockSymbol is not None: info["stockSymbol"] = self.stockSymbol
-		if self.numStocksOwned is not None: info["numStocksOwned"] = self.numStocksOwned
-		if self.moneyInvested is not None: info["moneyInvested"] = "$" + str(self.moneyInvested)
-		if self.a is not None: info["a"] = "$" + str(self.a)
-		if self.b is not None: info["b"] = "$" + str(self.b)
-		if self.c is not None: info["c"] = "$" + str(self.c)
-		if self.d is not None: info["d"] = "$" + str(self.d)
-		if self.e is not None: info["e"] = "$" + str(self.e)
-		if message is not None: info["message"] = message
-		f.write(json.dumps(info, indent=2))
-		f.write("\n--------------------\n")
-		f.close()
+	## Methods ##
+	# Write to the output file. Output the data as a json string
+	# TODO: Figure out if there is a simpler way to handle the output because all the output functions in each class seem too similar, perhaps by implementing a class that handles output.
+	def outputToDestination(self, message):
+		pass
 
-	# Getters and setters
+	## Getters and setters ##
+	def getId(self):
+		return self.id
+	def setId(self, newId):
+		self.id = newId
+		
 	def getDate(self):
 		return self.date
-	
 	def setDate(self, newDate):
 		self.date = newDate	
+
+	def getOutputDestination(self):
+		return self.outputDestination
+	def setOutputDestination(self, newOutputDestination):
+		self.outputDestination = newOutputDestination
 	
 	def getMessage(self):
 		return self.message
-	
 	def setMessage(self, newMessage):
 		self.message = newMessage
-
-	def getOutputFilePath(self):
-		return self.outputFilePath
-	
-	def setOutputFilePath(self, newOutputFilePath):
-		self.outputFilePath = newOutputFilePath

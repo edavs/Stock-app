@@ -1,37 +1,61 @@
+"""
+-Eduardo Davila
+-08/15/2019
+-Main.py
+-TODO: Describe the file
+"""
+
 import datetime as dt
+import mongodb as mdb
 import matplotlib.pyplot as plt
 from matplotlib import style
 import pandas as pd
 import pandas_datareader.data as web
-import Record
+import Record, Portfolio, Investment, ValleyStrategy, ValleyRecord
 import math
-import Portfolio
 
 # Welcome the user
 print("Welcome")
 
-# Take in user input
-userName = "test"  # = input("Enter your name: ")
-print("Welcome, " + userName)
-stockSymbols = ['BK']  # = input("List your stock symbols separated by a space(ex: STOCKA STOCKB STOCKC): ").split(' ')
-startYear = 2018  # = int(input("Enter your start year: "))
-endYear = 2018  # = int(input("Enter your end year: "))
-slant1 = 0.1  # = float(input("Enter your slant1 interest rate as a decimal number(ex:0.5): "))
-slant2 = 0.01  # = float(input("Enter your slant2 interest rate as a decimal number(ex:0.5): "))
-slant3 = 0.1  # = float(input("Enter your slant3 interest rate as a decimal number(ex:0.5): "))
-slant4 = 0.01  # = float(input("Enter your slant4 interest rate as a decimal number(ex:0.5): "))
-funds = 1000  # = int(input("Enter how much cash you wish to invest in USD(no commas, no decimals)(ex: 20000): $"))
-inflationRate = 0.02  # = float(input("Enter your inflation rate as a decimal number(ex:0.5): "))
-priceMeasurement = "Adj Close"  # = input("Enter the price measurement you would like to use (options: High, Low, Open, Close, Adj Close): ")
+# Take in user input.
+# TODO: Consider making a class to handle user input and maybe output as well.
+userNameUserInput = "test"  # = input("Enter your name: ")
+print("Welcome, " + userNameUserInput)
+itemNamesUserInput = ['BK']  # = input("List the names of items you want to invest in separated by a space(ex: STOCKA STOCKB STOCKC): ").split(' ')
+# TODO: Implement the ability for the user to enter an exact date then the program convert the user's input into a datetime value
+startYearUserInput = 2018  # = int(input("Enter your start year: "))
+endYearUserInput = 2019  # = int(input("Enter your end year: "))
+slant1UserInput = 0.1  # = float(input("Enter your slant1 interest rate as a decimal number(ex:0.5): "))
+slant2UserInput = 0.01  # = float(input("Enter your slant2 interest rate as a decimal number(ex:0.5): "))
+slant3UserInput = 0.1  # = float(input("Enter your slant3 interest rate as a decimal number(ex:0.5): "))
+slant4UserInput = 0.01  # = float(input("Enter your slant4 interest rate as a decimal number(ex:0.5): "))
+fundsUserInput = 1000  # = int(input("Enter how much funds you wish to invest (USD, no commas, no decimals)(ex: 20000): $"))
+# TODO: Implement the inflation rate
+inflationRateUserInput = 0.02  # = float(input("Enter your inflation rate as a decimal number(ex:0.5): "))
+priceMeasurementUserInput = "Adj Close"  # = input("Enter the price measurement you would like to use (options: High, Low, Open, Close, Adj Close): ")
 
-# Pick the start and end dates
-endDate = dt.datetime.now()
-startDate = endDate - dt.timedelta(days=730)
+# TODO: Think of a better and safer way of implementing id generation
+global_id = 0
+def generateNewId(id=global_id):
+	id += 1
+	return id
 
-# Create the user's portfolio
-cash = funds
-p = Portfolio.Portfolio(cash=cash, date=startDate, outputFilePath="Portfolio.txt")
+## Initializations based on the inputs ##
+# Formulate the start and end dates based on the date inputs
+endDate = dt.datetime.now()  # dt.datetime(endYear, 12, 31)
+startDate = endDate - dt.timedelta(days=730)  # dt.datetime(startYear, 1, 1)
+# ValleyStrategy
+vs = ValleyStrategy.ValleyStrategy(slant1=slant1UserInput, slant2=slant2UserInput, slant3=slant3UserInput, slant4=slant4UserInput)
+# ValleyRecord
+vr = ValleyRecord.ValleyRecord(id=generateNewId(), date=startDate)
+# Investment
+# TODO: Loop over itemNamesUserInput to create 1 investment per item
+inv = Investment.Investment(id=generateNewId(), date=startDate, cashValue=fundsUserInput, itemValue=0, itemName=itemNamesUserInput[0], itemCount=0, valleyRecord=vr)
+# Portfolio
+p = Portfolio.Portfolio(id=generateNewId(), date=startDate, cashValue=fundsUserInput, itemsValue=0, investment=inv, valleyStrategy=vs)
+print("Reached here")
 
+"""
 # Analyze all the stocks inputted
 for stockSymbol in stockSymbols:
 	# Use user input to create the dataframe of the requested data
@@ -82,9 +106,6 @@ for stockSymbol in stockSymbols:
 				p.setCash(newCash=round(p.getCash() + p.getStock("Value"), 2))
 				p.setStock(key="Count", newValue=0)
 				
-				"""r.setFunds(round(r.getFunds() + (r.getE() * r.numStocksOwned), 2))
-				r.setNumStocksOwned(0)
-				r.setMoneyInvested(0)"""
 				r.outputToFile("sale transaction")  # Save the sale r to the output file
 				recordOutputted = True
 		else:
@@ -107,3 +128,4 @@ for stockSymbol in stockSymbols:
 	# Save the last record and portfolio to their output files
 	r.outputToFile("Final record")
 	p.outputToFile("Final portfolio")
+"""
