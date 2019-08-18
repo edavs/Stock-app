@@ -1,109 +1,167 @@
 import datetime as dt
-import matplotlib.pyplot as plt
-from matplotlib import style
 import pandas as pd
 import pandas_datareader.data as web
-import Record
 import math
-import Portfolio
 
-# Welcome the user
-print("Welcome")
-
-# Take in user input
-userName = "test"  # = input("Enter your name: ")
-print("Welcome, " + userName)
-stockSymbols = ['BK']  # = input("List your stock symbols separated by a space(ex: STOCKA STOCKB STOCKC): ").split(' ')
-startYear = 2018  # = int(input("Enter your start year: "))
-endYear = 2018  # = int(input("Enter your end year: "))
-slant1 = 0.1  # = float(input("Enter your slant1 interest rate as a decimal number(ex:0.5): "))
-slant2 = 0.01  # = float(input("Enter your slant2 interest rate as a decimal number(ex:0.5): "))
-slant3 = 0.1  # = float(input("Enter your slant3 interest rate as a decimal number(ex:0.5): "))
-slant4 = 0.01  # = float(input("Enter your slant4 interest rate as a decimal number(ex:0.5): "))
-funds = 1000  # = int(input("Enter how much cash you wish to invest in USD(no commas, no decimals)(ex: 20000): $"))
-inflationRate = 0.02  # = float(input("Enter your inflation rate as a decimal number(ex:0.5): "))
-priceMeasurement = "Adj Close"  # = input("Enter the price measurement you would like to use (options: High, Low, Open, Close, Adj Close): ")
-
-# Pick the start and end dates
-endDate = dt.datetime.now()
-startDate = endDate - dt.timedelta(days=730)
-
-# Create the user's portfolio
-cash = funds
-p = Portfolio.Portfolio(cash=cash, date=startDate, outputFilePath="Portfolio.txt")
-
-# Analyze all the stocks inputted
-for stockSymbol in stockSymbols:
-	# Use user input to create the dataframe of the requested data
-	df = web.DataReader(stockSymbol, 'yahoo', startDate, endDate)
-	dfm = df[priceMeasurement]  # Dataframes have a lot of prices, only use one
+# TODO: Figure out how to visually separate purchases, sales, and results.
+def main():
+	# Welcome the user
+	print("Welcome")
 	
-	firstPrice = dfm[0].round(2)
-	r = Record.Record(a=firstPrice, date=startDate, funds=funds, moneyInvested=0, numStocksOwned=0, outputFilePath="./"+stockSymbol+".txt", price=firstPrice, stockSymbol=stockSymbol);
+	userInputs = initialize()
 	
-	# Output first record and portfolio to their output files
-	r.outputToFile("First record")
-	p.outputToFile("First portfolio")
+	strategy(userInputs=userInputs)
 
-	# Find the 5 points
-	for i in range(len(dfm)):		
-		# Update the record
-		r.setDate(dfm.index[i])
-		r.setPrice(round(dfm[i], 2))
-		recordOutputted = False
-		
-		if r.getB() is None:  # Find B
-			if r.getPrice() > r.getA():
-				r.setA(r.getPrice())
-			elif (r.getA() - r.getPrice()) / r.getA() >= slant1:
-					r.setB(r.getPrice())
-		elif r.getC() is None:  # Find C(purchase price)
-			if r.getPrice() < r.getB():
-				r.setB(r.getPrice())
-			elif (r.getPrice() - r.getB()) / r.getB() >= slant2:  # Purchase
-					# TODO: Perhaps create a function to handle a purchase
-					r.setC(r.getPrice())
-					maxStocksAfford = math.floor(p.getCash() / r.getC())
-					stockValue = round(maxStocksAfford * r.getPrice(), 2)
-					p.setStock(key="Count", newValue=maxStocksAfford)
-					p.setCash(newCash=round(p.getCash() - p.getStock("Value"), 2))
-					
-					r.outputToFile("purchase transaction")  # Save the purchase record to the output file
-					recordOutputted = True
-		elif r.getD() is None:  # Find D
-			if (r.getPrice() - r.getC()) / r.getC() >= slant3:
-				r.setD(r.getPrice())
-		elif r.getE() is None:  # Find E(Sell price)
-			if r.getPrice() > r.getD():
-				r.setD(r.getPrice())
-			elif (r.getD() - r.getPrice()) / r.getD() >= slant4:  # Sell
-				# TODO: Perhaps create a function to handle a sale
-				r.setE(r.getPrice())
-				p.setCash(newCash=round(p.getCash() + p.getStock("Value"), 2))
-				p.setStock(key="Count", newValue=0)
-				
-				"""r.setFunds(round(r.getFunds() + (r.getE() * r.numStocksOwned), 2))
-				r.setNumStocksOwned(0)
-				r.setMoneyInvested(0)"""
-				r.outputToFile("sale transaction")  # Save the sale r to the output file
-				recordOutputted = True
-		else:
-			r.setA(newA=r.getD())
-			r.setB(newB=None)
-			r.setC(newC=None)
-			r.setD(newD=None)
-			r.setE(newE=None)
-		
-		# Update the portfolio
-		p.setDate(r.getDate())
-		stockValue = p.getStock(key="Count") * r.getPrice()
-		p.setStock(key="Value", newValue=stockValue)
-		p.setValue(newValue=p.getCash() + p.getStock(key="Value"))
-		
-		# Output the record and the portfolio to their output files
-		if recordOutputted is False: r.outputToFile()
-		p.outputToFile()
+# Initialize the starting values
+def initialize():
+	# Request and handle user input
+	stockSymbols = ["BK", "ED", "PFE", "DBD", "PG", "JNJ", "IBM", "BRK-B", "ABT", 'F', "XRX", 'M', "CACI", "NOC", "MU"]  # = input("List your stock symbols separated by a space(ex:STOCKA STOCKB STOCKC): ").split(' ')
+	yearsBackUserInput = 2  # = int(input("Enter how many years back you would like to start collecting data(ex: 2"))). TODO: Convert user inputted start date to a datetime object.
+	slants = [0.1, 0.01, 0.1, 0.01]  # = input("Enter your slants(1-4) interest rate as a decimal number separated by a space(ex:0.1 0.2 0.3 0.4 ): ").split(' ')
+	initialFunds = 10000  # = int(input("Enter how much cash you wish to invest in USD(no commas, no decimals)(ex:20000): $"))
+	inflationRate = 0.02  # = float(input("Enter your inflation rate as a decimal number(ex:0.5): "))
+	showPurchases = False  # bool(input("Enter True if you would like to see the purchases. Enter False if you would not(ex: True): "))
+	showSales = False  # bool(input("Enter True if you would like to see the sales, enter False if you would not(ex: True): "))
+	showResults = True  # bool(input("Enter True if you would like to see the results, enter False if you would not(ex: True): "))
+	
+	# Set some values
+	initialStockCount = 0
+	stockPriceMarker = "Adj Close"
+	startDate = dt.datetime.now() - dt.timedelta(days=365*yearsBackUserInput)
+	endDate = dt.datetime.now()
+	
+	return [stockSymbols, startDate, slants, initialFunds, inflationRate, initialStockCount, stockPriceMarker, endDate, yearsBackUserInput, showPurchases, showSales, showResults]
 
-	# Save the last record and portfolio to their output files
-	r.outputToFile("Final record")
-	p.outputToFile("Final portfolio")
+# Apply the stock trading strategy
+def strategy(userInputs):
+	# Handle the parameters
+	stockSymbols = userInputs[0]
+	startDate = userInputs[1]
+	slants = userInputs[2]
+	initialFunds = userInputs[3]
+	inflationRate = userInputs[4]
+	initialStockCount = userInputs[5]
+	stockPriceMarker = userInputs[6]
+	endDate = userInputs[7]
+	yearsBack = userInputs[8]
+	showPurchases = userInputs[9]
+	showSales = userInputs[10]
+	showResults = userInputs[11]
+
+	# Analyze all the stocks inputted to figure out purchase and sell dates
+	for stockSymbol in stockSymbols:
+		# Use user input to create the dataframe of the requested data
+		df = web.DataReader(stockSymbol, 'yahoo', startDate, endDate)
+		dfm = df[stockPriceMarker]  # Dataframes have a lot of stockPrice markers, only use one
+		
+		# Reset some values
+		stockCount = initialStockCount
+		funds = initialFunds
+		
+		# Reset the 5 points
+		a = None
+		b = None
+		c = None
+		d = None
+		e = None
+
+		# Find the 5 points by looping through the stock's stockPrices
+		for i in range(len(dfm)):		
+			# Get the date and stockPrice from the dataframe
+			date = dfm.index[i]
+			stockPrice = dfm[i]
+			
+			if a is None and d is None: a = stockPrice  # This should only be true in the first iteration of this loop
+			elif b is None:  # Find b while adjusting a
+				if stockPrice > a:  # Price went up
+					a = stockPrice
+				elif (a - stockPrice) / a >= slants[0]:  # Price went down
+						b = stockPrice
+			elif c is None:  # Find C(purchase stockPrice) while adjusting b
+				if stockPrice < b:
+					b = stockPrice
+				elif (stockPrice - b) / b >= slants[1]:  # Purchase the stock
+					c = stockPrice
+					funds, stockCount = purchase(date=date, funds=funds, stockPrice=stockPrice, stockSymbol=stockSymbol, showPurchase=showPurchases)
+			elif d is None:  # Find D
+				if (stockPrice - c) / c >= slants[2]:
+					d = stockPrice
+			elif e is None:  # Find E(Sell stockPrice) while adjusting D
+				if stockPrice > d:
+					d = stockPrice
+				elif (d - stockPrice) / d >= slants[3]:  # Sell the stock
+					e = stockPrice
+					funds, stockCount = sell(date=date, funds=funds, stockCount=stockCount, stockPrice=stockPrice, stockSymbol=stockSymbol, showSale=showSales)
+			else:
+				a = d
+				b = None
+				c = None
+				d = None
+				e = None
+		
+		stockResult(initialFunds=initialFunds, funds=funds, date=date, stockCount=stockCount, stockPrice=stockPrice, stockSymbol=stockSymbol, inflationRate=inflationRate, yearsBack=yearsBack, showResult=showResults)
+
+# Buy the stock
+def purchase(date, funds, stockPrice, stockSymbol, showPurchase):
+	# Calculate the pruchase price and how it will affect other values
+	stockCount = math.floor(funds / stockPrice)
+	purchaseCost = stockCount * stockPrice
+	funds -= purchaseCost
+	
+	# Output
+	if showPurchase:
+		print("Purchase of " + stockSymbol + " stock")
+		print("Date: " + str(date))
+		print("Count: $" + str(stockCount) + " shares")
+		print("Price: $" + str(round(stockPrice, 2)) + " per share")
+		print("Cost: $" + str(round(purchaseCost, 2)))
+		print("Funds: " + str(round(funds, 2)))
+		print("----------------------------------------")
+	
+	return funds, stockCount
+
+# Sell the stock
+def sell(date, funds, stockCount, stockPrice, stockSymbol, showSale):
+	# Calculate the sale earnings and how it will affect other values
+	saleEarnings = stockCount * stockPrice
+	funds += saleEarnings
+	
+	# Output
+	if showSale:
+		print("Sale of " + stockSymbol + " stock")
+		print("Date: " + str(date))
+		print("Count: $" + str(stockCount) + " shares")
+		print("Price: $" + str(round(stockPrice, 2)) + " per share")
+		print("Earnings: $" + str(round(saleEarnings, 2)))
+		print("Funds: " + str(round(funds, 2)))
+		print("----------------------------------------")
+	
+	stockCount = 0
+	
+	return funds, stockCount
+
+# Show the changes in funds comparing initial funds with final funds
+def stockResult(date, funds, initialFunds, stockCount, stockPrice, stockSymbol, inflationRate, yearsBack, showResult):
+	# Calculate the final statistics
+	finalValue = funds + stockPrice * stockCount
+	changeInValue = finalValue - initialFunds
+	interestRateOfReturn = changeInValue / initialFunds
+	annualInterestRateOfReturn = interestRateOfReturn / yearsBack
+	
+	# TODO: Include initial date, final date, time passed, overall irr(interest rate of return) and annual irr.
+	
+	# Output
+	if showResult:
+		print("Results of " + stockSymbol + " stock")
+		print("Date: " + str(date))
+		print("Initial funds: $" + str(initialFunds))
+		print("Final value: $" + str(round(finalValue, 2)))
+		print("Change in value: $" + str(round(changeInValue, 2)))
+		print("Interest rate of return: " + str(round(interestRateOfReturn * 100, 2)) + "% in " + str(yearsBack) + "years.")
+		print("Annual interest rate of return: " + str(round(annualInterestRateOfReturn * 100, 2)) + str('%'))
+		print("----------------------------------------")
+
+# TODO: Find a way to implement the stockResults function but to calculate the average results with all the stocks put together.
+
+
+main()
