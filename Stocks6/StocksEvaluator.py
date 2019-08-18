@@ -3,7 +3,8 @@ import pandas as pd
 import pandas_datareader.data as web
 import math
 
-# TODO: Figure out how to visually separate purchases, sales, and results.
+# TODO: Implement the ability to see a graph for each stock of price vs date. Include data points of each purchase and sale. This will help visualize the trading strategy in action.
+# TODO: Alphabetize parameters
 def main():
 	# Welcome the user
 	print("Welcome")
@@ -22,7 +23,11 @@ def initialize():
 	inflationRate = 0.02  # = float(input("Enter your inflation rate as a decimal number(ex:0.5): "))
 	showPurchases = False  # bool(input("Enter True if you would like to see the purchases. Enter False if you would not(ex: True): "))
 	showSales = False  # bool(input("Enter True if you would like to see the sales, enter False if you would not(ex: True): "))
-	showResults = True  # bool(input("Enter True if you would like to see the results, enter False if you would not(ex: True): "))
+	showResults = False  # bool(input("Enter True if you would like to see the results, enter False if you would not(ex: True): "))
+	showFinalResult = True  # bool(input("Enter True if you would like to see the final result, enter False if you would not(ex: True): "))
+	
+	# Let the user know the program is churning away
+	print("Processing & calculating...")
 	
 	# Set some values
 	initialStockCount = 0
@@ -30,7 +35,7 @@ def initialize():
 	startDate = dt.datetime.now() - dt.timedelta(days=365*yearsBackUserInput)
 	endDate = dt.datetime.now()
 	
-	return [stockSymbols, startDate, slants, initialFunds, inflationRate, initialStockCount, stockPriceMarker, endDate, yearsBackUserInput, showPurchases, showSales, showResults]
+	return [stockSymbols, startDate, slants, initialFunds, inflationRate, initialStockCount, stockPriceMarker, endDate, yearsBackUserInput, showPurchases, showSales, showResults, showFinalResult]
 
 # Apply the stock trading strategy
 def strategy(userInputs):
@@ -47,6 +52,11 @@ def strategy(userInputs):
 	showPurchases = userInputs[9]
 	showSales = userInputs[10]
 	showResults = userInputs[11]
+	showFinalResult = userInputs[12]
+	
+	# Prepare a list of the final results
+	annualInterestRatesOfReturns = []
+	interestRatesOfReturns = []
 
 	# Analyze all the stocks inputted to figure out purchase and sell dates
 	for stockSymbol in stockSymbols:
@@ -99,7 +109,14 @@ def strategy(userInputs):
 				d = None
 				e = None
 		
-		stockResult(initialFunds=initialFunds, funds=funds, date=date, stockCount=stockCount, stockPrice=stockPrice, stockSymbol=stockSymbol, inflationRate=inflationRate, yearsBack=yearsBack, showResult=showResults)
+		# Handle the stock's result
+		interestRateOfReturn, annualInterestRateOfReturn = stockResult(initialFunds=initialFunds, funds=funds, date=date, stockCount=stockCount, stockPrice=stockPrice, stockSymbol=stockSymbol, inflationRate=inflationRate, yearsBack=yearsBack, showResult=showResults)
+		
+		# Handle the averages of the stocks' results
+		interestRatesOfReturns.append(interestRateOfReturn)
+		annualInterestRatesOfReturns.append(annualInterestRateOfReturn)
+	
+	finalResult(annualInterestRatesOfReturns=annualInterestRatesOfReturns, stockSymbols=stockSymbols, showFinalResult=showFinalResult, interestRatesOfReturns=interestRatesOfReturns, yearsBack=yearsBack)
 
 # Buy the stock
 def purchase(date, funds, stockPrice, stockSymbol, showPurchase):
@@ -110,13 +127,13 @@ def purchase(date, funds, stockPrice, stockSymbol, showPurchase):
 	
 	# Output
 	if showPurchase:
+		print("----------------------------------------")
 		print("Purchase of " + stockSymbol + " stock")
 		print("Date: " + str(date))
 		print("Count: $" + str(stockCount) + " shares")
 		print("Price: $" + str(round(stockPrice, 2)) + " per share")
 		print("Cost: $" + str(round(purchaseCost, 2)))
 		print("Funds: " + str(round(funds, 2)))
-		print("----------------------------------------")
 	
 	return funds, stockCount
 
@@ -128,13 +145,13 @@ def sell(date, funds, stockCount, stockPrice, stockSymbol, showSale):
 	
 	# Output
 	if showSale:
+		print("----------------------------------------")
 		print("Sale of " + stockSymbol + " stock")
 		print("Date: " + str(date))
 		print("Count: $" + str(stockCount) + " shares")
 		print("Price: $" + str(round(stockPrice, 2)) + " per share")
 		print("Earnings: $" + str(round(saleEarnings, 2)))
 		print("Funds: " + str(round(funds, 2)))
-		print("----------------------------------------")
 	
 	stockCount = 0
 	
@@ -152,16 +169,29 @@ def stockResult(date, funds, initialFunds, stockCount, stockPrice, stockSymbol, 
 	
 	# Output
 	if showResult:
-		print("Results of " + stockSymbol + " stock")
+		print("----------------------------------------")
+		print("Result of " + stockSymbol + " stock")
 		print("Date: " + str(date))
 		print("Initial funds: $" + str(initialFunds))
 		print("Final value: $" + str(round(finalValue, 2)))
 		print("Change in value: $" + str(round(changeInValue, 2)))
 		print("Interest rate of return: " + str(round(interestRateOfReturn * 100, 2)) + "% in " + str(yearsBack) + "years.")
 		print("Annual interest rate of return: " + str(round(annualInterestRateOfReturn * 100, 2)) + str('%'))
-		print("----------------------------------------")
+	
+	# Return information for the final results
+	return interestRateOfReturn, annualInterestRateOfReturn
 
 # TODO: Find a way to implement the stockResults function but to calculate the average results with all the stocks put together.
-
+def finalResult(annualInterestRatesOfReturns, stockSymbols, showFinalResult, interestRatesOfReturns, yearsBack):
+	# Find the average of the results
+	averageAnnualInterestRateOfReturn = sum(annualInterestRatesOfReturns) / len(annualInterestRatesOfReturns)
+	averageInterestRateOfReturn = sum(interestRatesOfReturns) / len(interestRatesOfReturns)
+	
+	# Output
+	if showFinalResult:
+		print("----------------------------------------")
+		print("Final result of " + str(stockSymbols))
+		print("Average interest rate of return: " + str(round(averageInterestRateOfReturn, 2)) + "% in " + str(yearsBack) + "years.")
+		print("Average annual interest rate of return: " + str(round(averageAnnualInterestRateOfReturn, 2)) + '%')
 
 main()
