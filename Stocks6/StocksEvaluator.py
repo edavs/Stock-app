@@ -1,10 +1,13 @@
 import datetime as dt
+import matplotlib.pyplot as plt
+from matplotlib import style
 import pandas as pd
 import pandas_datareader.data as web
 import math
 
 # TODO: Implement the ability to see a graph for each stock of price vs date. Include data points of each purchase and sale. This will help visualize the trading strategy in action.
-# TODO: Alphabetize parameters
+# TODO: Alphabetize parameters.
+# TODO: Figure out why git won't let me push nor pull and fix it.
 def main():
 	# Welcome the user
 	print("Welcome")
@@ -16,8 +19,8 @@ def main():
 # Initialize the starting values
 def initialize():
 	# Request and handle user input
-	stockSymbols = ["BK", "ED", "PFE", "DBD", "PG", "JNJ", "IBM", "BRK-B", "ABT", 'F', "XRX", 'M', "CACI", "NOC", "MU"]  # = input("List your stock symbols separated by a space(ex:STOCKA STOCKB STOCKC): ").split(' ')
-	yearsBackUserInput = 2  # = int(input("Enter how many years back you would like to start collecting data(ex: 2"))). TODO: Convert user inputted start date to a datetime object.
+	stockSymbols = ["BK", "ED"]  # = input("List your stock symbols separated by a space(ex:STOCKA STOCKB STOCKC): ").split(' ')
+	yearsBackUserInput = 10  # = int(input("Enter how many years back you would like to start collecting data(ex: 2"))). TODO: Convert user inputted start date to a datetime object.
 	slants = [0.1, 0.01, 0.1, 0.01]  # = input("Enter your slants(1-4) interest rate as a decimal number separated by a space(ex:0.1 0.2 0.3 0.4 ): ").split(' ')
 	initialFunds = 10000  # = int(input("Enter how much cash you wish to invest in USD(no commas, no decimals)(ex:20000): $"))
 	inflationRate = 0.02  # = float(input("Enter your inflation rate as a decimal number(ex:0.5): "))
@@ -31,11 +34,11 @@ def initialize():
 	
 	# Set some values
 	initialStockCount = 0
-	stockPriceMarker = "Adj Close"
+	priceMarker = "Adj Close"
 	startDate = dt.datetime.now() - dt.timedelta(days=365*yearsBackUserInput)
 	endDate = dt.datetime.now()
 	
-	return [stockSymbols, startDate, slants, initialFunds, inflationRate, initialStockCount, stockPriceMarker, endDate, yearsBackUserInput, showPurchases, showSales, showResults, showFinalResult]
+	return [stockSymbols, startDate, slants, initialFunds, inflationRate, initialStockCount, priceMarker, endDate, yearsBackUserInput, showPurchases, showSales, showResults, showFinalResult]
 
 # Apply the stock trading strategy
 def strategy(userInputs):
@@ -46,7 +49,7 @@ def strategy(userInputs):
 	initialFunds = userInputs[3]
 	inflationRate = userInputs[4]
 	initialStockCount = userInputs[5]
-	stockPriceMarker = userInputs[6]
+	priceMarker = userInputs[6]
 	endDate = userInputs[7]
 	yearsBack = userInputs[8]
 	showPurchases = userInputs[9]
@@ -62,67 +65,135 @@ def strategy(userInputs):
 	for stockSymbol in stockSymbols:
 		# Use user input to create the dataframe of the requested data
 		df = web.DataReader(stockSymbol, 'yahoo', startDate, endDate)
-		dfm = df[stockPriceMarker]  # Dataframes have a lot of stockPrice markers, only use one
+		dfm = df[priceMarker]  # Dataframes have a lot of price markers, only use one
 		
 		# Reset some values
 		stockCount = initialStockCount
 		funds = initialFunds
 		
+		# Reset values for the graph
+		dates = [dt.datetime.now()]
+		prices = [0]
+		labels = ['']
+		
 		# Reset the 5 points
+		# TODO: Consider renaming these or making them uppercase
 		a = None
 		b = None
 		c = None
 		d = None
 		e = None
 
-		# Find the 5 points by looping through the stock's stockPrices
+		# Find the 5 points by looping through the stock's prices
 		for i in range(len(dfm)):		
-			# Get the date and stockPrice from the dataframe
+			# Get the date and price from the dataframe
 			date = dfm.index[i]
-			stockPrice = dfm[i]
+			price = dfm[i]
 			
-			if a is None and d is None: a = stockPrice  # This should only be true in the first iteration of this loop
+			if a is None and d is None: a = price  # This should only be true in the first iteration of this loop
 			elif b is None:  # Find b while adjusting a
-				if stockPrice > a:  # Price went up
-					a = stockPrice
-				elif (a - stockPrice) / a >= slants[0]:  # Price went down
-						b = stockPrice
-			elif c is None:  # Find C(purchase stockPrice) while adjusting b
-				if stockPrice < b:
-					b = stockPrice
-				elif (stockPrice - b) / b >= slants[1]:  # Purchase the stock
-					c = stockPrice
-					funds, stockCount = purchase(date=date, funds=funds, stockPrice=stockPrice, stockSymbol=stockSymbol, showPurchase=showPurchases)
+				if price > a:  # Price went up; therefore, adjust a
+					a = price
+					
+					# Graphing values
+					# TODO: Move these lines into a function since they get repeated a lot
+					dates[-1] = date
+					prices[-1] = price
+					labels[-1] = 'A'
+				elif (a - price) / a >= slants[0]:  # Price went down significantly
+					b = price
+					
+					# Graphing values
+					# TODO: Move these lines into a function since they get repeated a lot
+					dates.append(date)
+					prices.append(price)
+					labels.append('B')
+			elif c is None:  # Find C(purchase price) while adjusting b
+				if price < b:
+					b = price
+					
+					# Graphing values
+					dates[-1] = date
+					prices[-1] = price
+					labels[-1] = 'B'
+				elif (price - b) / b >= slants[1]:  # Purchase the stock
+					c = price
+					funds, stockCount = purchase(date=date, funds=funds, price=price, stockSymbol=stockSymbol, showPurchase=showPurchases)
+					
+					# Graphing values
+					dates.append(date)
+					prices.append(price)
+					labels.append('C')
 			elif d is None:  # Find D
-				if (stockPrice - c) / c >= slants[2]:
-					d = stockPrice
-			elif e is None:  # Find E(Sell stockPrice) while adjusting D
-				if stockPrice > d:
-					d = stockPrice
-				elif (d - stockPrice) / d >= slants[3]:  # Sell the stock
-					e = stockPrice
-					funds, stockCount = sell(date=date, funds=funds, stockCount=stockCount, stockPrice=stockPrice, stockSymbol=stockSymbol, showSale=showSales)
+				if (price - c) / c >= slants[2]:
+					d = price
+					
+					# Graphing values
+					dates.append(date)
+					prices.append(price)
+					labels.append('D')
+			elif e is None:  # Find E(Sell price) while adjusting D
+				if price > d:
+					d = price
+					
+					# Graphing values
+					dates[-1] = date
+					prices[-1] = price
+					labels[-1] = 'D'
+				elif (d - price) / d >= slants[3]:  # Sell the stock
+					e = price
+					funds, stockCount = sell(date=date, funds=funds, stockCount=stockCount, price=price, stockSymbol=stockSymbol, showSale=showSales)
+					
+					# Graphing values
+					dates.append(date)
+					prices.append(price)
+					labels.append('E')
 			else:
 				a = d
 				b = None
 				c = None
 				d = None
 				e = None
+				
+				# Graphing values
+				dates.append(date)
+				prices.append(price)
+				labels.append('A')
 		
-		# Handle the stock's result
-		interestRateOfReturn, annualInterestRateOfReturn = stockResult(initialFunds=initialFunds, funds=funds, date=date, stockCount=stockCount, stockPrice=stockPrice, stockSymbol=stockSymbol, inflationRate=inflationRate, yearsBack=yearsBack, showResult=showResults)
+		# Show the stock's result
+		interestRateOfReturn, annualInterestRateOfReturn = stockResult(initialFunds=initialFunds, funds=funds, date=date, stockCount=stockCount, price=price, stockSymbol=stockSymbol, inflationRate=inflationRate, yearsBack=yearsBack, showResult=showResults)
 		
-		# Handle the averages of the stocks' results
+		# Save the averages of the stocks' results for future use
 		interestRatesOfReturns.append(interestRateOfReturn)
 		annualInterestRatesOfReturns.append(annualInterestRateOfReturn)
+		
+		# Graph of the prices, purchase prices, and sale prices
+		# TODO: Move all this graphing code to a function. Including the graphing lines in the loops
+		dfm.plot(label="Price")
+		plt.plot(dates, prices, marker='o')
+		plt.title(stockSymbol + " stock")
+		plt.xlabel("Date")
+		plt.ylabel(priceMarker + " price")
+		plt.legend()		
+		# zip joins x and y coordinates in pairs
+		for date, price, label in zip(dates, prices, labels):
+			label = label.format(price)
+
+			plt.annotate(label, # this is the text
+						 (date, price), # this is the point to label
+						 textcoords="offset points", # how to position the text
+						 xytext=(0,10), # distance from text to points (x,y)
+						 ha='center') # horizontal alignment can be left, right or center
+
+		plt.show()
 	
-	finalResult(annualInterestRatesOfReturns=annualInterestRatesOfReturns, stockSymbols=stockSymbols, showFinalResult=showFinalResult, interestRatesOfReturns=interestRatesOfReturns, yearsBack=yearsBack)
+	finalResult(annualInterestRatesOfReturns=annualInterestRatesOfReturns, interestRatesOfReturns=interestRatesOfReturns, showFinalResult=showFinalResult, stockSymbols=stockSymbols, yearsBack=yearsBack)
 
 # Buy the stock
-def purchase(date, funds, stockPrice, stockSymbol, showPurchase):
+def purchase(date, funds, price, stockSymbol, showPurchase):
 	# Calculate the pruchase price and how it will affect other values
-	stockCount = math.floor(funds / stockPrice)
-	purchaseCost = stockCount * stockPrice
+	stockCount = math.floor(funds / price)
+	purchaseCost = stockCount * price
 	funds -= purchaseCost
 	
 	# Output
@@ -131,16 +202,16 @@ def purchase(date, funds, stockPrice, stockSymbol, showPurchase):
 		print("Purchase of " + stockSymbol + " stock")
 		print("Date: " + str(date))
 		print("Count: $" + str(stockCount) + " shares")
-		print("Price: $" + str(round(stockPrice, 2)) + " per share")
+		print("Price: $" + str(round(price, 2)) + " per share")
 		print("Cost: $" + str(round(purchaseCost, 2)))
 		print("Funds: " + str(round(funds, 2)))
 	
 	return funds, stockCount
 
 # Sell the stock
-def sell(date, funds, stockCount, stockPrice, stockSymbol, showSale):
+def sell(date, funds, stockCount, price, stockSymbol, showSale):
 	# Calculate the sale earnings and how it will affect other values
-	saleEarnings = stockCount * stockPrice
+	saleEarnings = stockCount * price
 	funds += saleEarnings
 	
 	# Output
@@ -149,7 +220,7 @@ def sell(date, funds, stockCount, stockPrice, stockSymbol, showSale):
 		print("Sale of " + stockSymbol + " stock")
 		print("Date: " + str(date))
 		print("Count: $" + str(stockCount) + " shares")
-		print("Price: $" + str(round(stockPrice, 2)) + " per share")
+		print("Price: $" + str(round(price, 2)) + " per share")
 		print("Earnings: $" + str(round(saleEarnings, 2)))
 		print("Funds: " + str(round(funds, 2)))
 	
@@ -158,9 +229,9 @@ def sell(date, funds, stockCount, stockPrice, stockSymbol, showSale):
 	return funds, stockCount
 
 # Show the changes in funds comparing initial funds with final funds
-def stockResult(date, funds, initialFunds, stockCount, stockPrice, stockSymbol, inflationRate, yearsBack, showResult):
+def stockResult(date, funds, initialFunds, stockCount, price, stockSymbol, inflationRate, yearsBack, showResult):
 	# Calculate the final statistics
-	finalValue = funds + stockPrice * stockCount
+	finalValue = funds + price * stockCount
 	changeInValue = finalValue - initialFunds
 	interestRateOfReturn = changeInValue / initialFunds
 	annualInterestRateOfReturn = interestRateOfReturn / yearsBack
@@ -182,16 +253,17 @@ def stockResult(date, funds, initialFunds, stockCount, stockPrice, stockSymbol, 
 	return interestRateOfReturn, annualInterestRateOfReturn
 
 # TODO: Find a way to implement the stockResults function but to calculate the average results with all the stocks put together.
-def finalResult(annualInterestRatesOfReturns, stockSymbols, showFinalResult, interestRatesOfReturns, yearsBack):
+# Calculate & display the overall results of all the stocks evaluated
+def finalResult(annualInterestRatesOfReturns, interestRatesOfReturns, showFinalResult, stockSymbols, yearsBack):
 	# Find the average of the results
-	averageAnnualInterestRateOfReturn = sum(annualInterestRatesOfReturns) / len(annualInterestRatesOfReturns)
 	averageInterestRateOfReturn = sum(interestRatesOfReturns) / len(interestRatesOfReturns)
+	averageAnnualInterestRateOfReturn = sum(annualInterestRatesOfReturns) / len(annualInterestRatesOfReturns)
 	
 	# Output
 	if showFinalResult:
 		print("----------------------------------------")
 		print("Final result of " + str(stockSymbols))
-		print("Average interest rate of return: " + str(round(averageInterestRateOfReturn, 2)) + "% in " + str(yearsBack) + "years.")
-		print("Average annual interest rate of return: " + str(round(averageAnnualInterestRateOfReturn, 2)) + '%')
+		print("Average interest rate of return: " + str(round(averageInterestRateOfReturn * 100, 2)) + "% in " + str(yearsBack) + "years.")
+		print("Average annual interest rate of return: " + str(round(averageAnnualInterestRateOfReturn * 100, 2)) + '%')
 
 main()
