@@ -5,8 +5,10 @@
 -TODO: Describe the file
 """
 
+# TODO: Consider using a database system to avoid having to update so many variables each time something changes.
+
 import datetime as dt
-import mongodb as mdb
+import mongo as mdb
 import matplotlib.pyplot as plt
 from matplotlib import style
 import pandas as pd
