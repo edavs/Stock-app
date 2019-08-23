@@ -5,7 +5,6 @@ import pandas as pd
 import pandas_datareader.data as web
 import math
 
-# TODO: Figure out why git won't let me push nor pull and fix it.
 def main():
 	# Welcome the user
 	print("Welcome")
@@ -17,17 +16,18 @@ def main():
 # Initialize the starting values
 def initialize():
 	# Request and handle user input
-	stockSymbols = ["BK", "ED", "PFE", "DBD", "PG", "JNJ", "IBM", "BRK-B", "ABT", 'F', "XRX", 'M']  # = input("List your stock symbols separated by a space(ex:STOCKA STOCKB STOCKC): ").split(' ')
-	#stockSymbols = ["BK", "ED"]
-	yearsBackUserInput = 10  # = int(input("Enter how many years back you would like to start collecting data(ex: 2"))).
+	# TODO: Implement a way to allow the user to choose a default value for each input by just hitting enter when prompted to input a value
+	#stockSymbols = ["XRX"]
+	stockSymbols = ["BK", "ED", "PFE", "DBD", "PG", "JNJ", "IBM", "ABT", 'F', "XRX", 'M']  # = input("List your stock symbols separated by a space(ex:STOCKA STOCKB STOCKC): ").split(' ')
+	yearsBackUserInput = 37  # = int(input("Enter how many years back you would like to start collecting data(ex: 2"))).
 	# TODO: Try different #s to see what changing the slants does to the irr.
 	# TODO: Think of a way to have the computer figure out what the optimal slant values are for each stock. So far slants = [0.04, 0.01, 0.04, 0.01] have produced the best results for the 12 stocks(["BK", "ED", "PFE", "DBD", "PG", "JNJ", "IBM", "BRK-B", "ABT", 'F', "XRX", 'M'])
-	slants = [0.1, 0.01, 0.1, 0.01]  # = input("Enter your slants(1-4) interest rate as a decimal number separated by a space(ex:0.1 0.2 0.3 0.4 ): ").split(' ')
+	slants = [0.04, 0.01, 0.04, 0.01]#[0.1, 0.01, 0.1, 0.01]  # = input("Enter your slants(1-4) interest rate as a decimal number separated by a space(ex:0.1 0.2 0.3 0.4 ): ").split(' ')
 	initialFunds = 10000  # = int(input("Enter how much cash you wish to invest in the previously listed items combined USD(no commas, no decimals)(ex:20000): $"))
 	inflationRate = 0.02  # = float(input("Enter your inflation rate as a decimal number(ex:0.5): "))
 	showPurchases = False  # bool(input("Enter True if you would like to see the purchases. Enter False if you would not(ex: True): "))
 	showSales = False  # bool(input("Enter True if you would like to see the sales, enter False if you would not(ex: True): "))
-	showResults = False  # bool(input("Enter True if you would like to see the results, enter False if you would not(ex: True): "))
+	showResults = True  # bool(input("Enter True if you would like to see the results, enter False if you would not(ex: True): "))
 	showFinalResult = True  # bool(input("Enter True if you would like to see the final result, enter False if you would not(ex: True): "))
 	showGraphs = False  # bool(input("Enter True if you would like to see the graph of the stock, enter False if you would not(ex: True): "))
 	
@@ -43,7 +43,10 @@ def initialize():
 	return [endDate, initialFunds, inflationRate, initialStockCount, priceMarker, showFinalResult, showGraphs, showPurchases, showResults, showSales, slants, startDate, stockSymbols, yearsBackUserInput]
 
 # Apply the stock trading strategy
-# TODO: Change the strategy to avoid A being(perhaps ever) the highest value the stock has ever been.
+# TODO: Change the strategy to avoid A being the highest value the stock has ever been. Maybe limit it to 90% of the highest value. It's okay if D & E get up there though
+# TODO: Implement a new strategy where I ask for an investment limit which limits how much I invest in a given purchase. Wait this seems similar to the strategy of 2 purchases.
+# TODO: Be more mindful of the relationship between A and C bc it is possible for C > A which is very dangerous. Stay away from daily valleys.
+# TODO: Think of a way to handle high levels of fluctuations. This signals a more than usually unpredictable stock.
 def strategy(userInputs):
 	# Handle the parameters	
 	endDate = userInputs[0]
@@ -91,7 +94,7 @@ def strategy(userInputs):
 			date = dfm.index[i]
 			price = dfm[i]
 			
-			if pricePoints['a'] is None and pricePoints['d'] is None:  # This should only be true in the first iteration of this loop
+			if pricePoints['a'] is None:  # This should only be true at the very beginning or right after a sale
 				pricePoints['a'] = price
 				dates, labels, prices = updateGraphValues(append=False, date=date, dates=dates, label="A", labels=labels, price=price, prices=prices, replace=True)
 			elif pricePoints['b'] is None:  # Find pricePoints["b"] while adjusting pricePoints["a"]
@@ -99,7 +102,7 @@ def strategy(userInputs):
 					pricePoints['a'] = price
 					dates, labels, prices = updateGraphValues(append=False, date=date, dates=dates, label="A", labels=labels, price=price, prices=prices, replace=True)				
 				elif (pricePoints['a'] - price) / pricePoints['a'] >= slants[0]:  # Price went down significantly; therefore assign b
-					pricePoints["b"] = price
+					pricePoints['b'] = price
 					dates, labels, prices = updateGraphValues(append=True, date=date, dates=dates, label='B', labels=labels, price=price, prices=prices, replace=False)	
 			elif pricePoints['c'] is None:  # Find purchase price while adjusting pricePoints["b"]
 				if price < pricePoints['b']:
@@ -125,13 +128,14 @@ def strategy(userInputs):
 					
 					funds, stockCount = sell(date=date, funds=funds, stockCount=stockCount, price=price, stockSymbol=stockSymbol, showSale=showSales)
 			else:
-				pricePoints['a'] = pricePoints['d']
+				pricePoints['a'] = None
 				pricePoints['b'] = None
 				pricePoints['c'] = None
 				pricePoints['d'] = None
 				pricePoints['e'] = None
 				
-				dates, labels, prices = updateGraphValues(append=True, date=date, dates=dates, label="A1", labels=labels, price=price, prices=prices, replace=False)
+				# TODO: Fix this bug. This was meant to mark D and A at the same spot(coordinates in the graph) but since the date has moved as well as the price, it actually marks A 1 spot after the sale. So the graph is showing the wrong location for As that go after Ds and do not rise to a price above D.
+				dates, labels, prices = updateGraphValues(append=True, date=date, dates=dates, label="A", labels=labels, price=price, prices=prices, replace=False)
 		
 		# Show the stock's result		
 		annualInterestRateOfReturn, interestRateOfReturn = stockResult(date=date, funds=funds, inflationRate=inflationRate, initialFunds=initialFunds, price=price, showResult=showResults, stockCount=stockCount, stockSymbol=stockSymbol, yearsBack=yearsBack)
@@ -207,8 +211,8 @@ def stockResult(date=dt.datetime.now(), funds=0.0, inflationRate=0.0, initialFun
 		print("Funds left: $" + str(round(funds, 2)))
 		print("Final value: $" + str(round(finalValue, 2)))
 		print("Change in value: $" + str(round(changeInValue, 2)))
-		print("Interest rate of return: " + str(round(interestRateOfReturn * 100, 2)) + "% in " + str(yearsBack) + "years.")
-		print("Annual interest rate of return: " + str(round(annualInterestRateOfReturn * 100, 2)) + str('%'))
+		print("Nominal interest rate of return: " + str(round(interestRateOfReturn * 100, 2)) + "% in " + str(yearsBack) + "years.")
+		print("Annual nominal interest rate of return: " + str(round(annualInterestRateOfReturn * 100, 2)) + str('%'))
 	
 	# Return information for the final results
 	return annualInterestRateOfReturn, interestRateOfReturn
@@ -225,8 +229,8 @@ def finalResult(annualInterestRatesOfReturns, interestRatesOfReturns, showFinalR
 	if showFinalResult:
 		print("----------------------------------------")
 		print("Final result of " + str(stockSymbols))
-		print("Average interest rate of return: " + str(round(averageInterestRateOfReturn * 100, 2)) + "% in " + str(yearsBack) + "years.")
-		print("Average annual interest rate of return: " + str(round(averageAnnualInterestRateOfReturn * 100, 2)) + '%')
+		print("Average nominal interest rate of return: " + str(round(averageInterestRateOfReturn * 100, 2)) + "% in " + str(yearsBack) + "years.")
+		print("Average nominal annual interest rate of return: " + str(round(averageAnnualInterestRateOfReturn * 100, 2)) + '%')
 	
 	# TODO: Incorporate these values into the final print out. Going to need more parameters.
 	"""print("Date: " + str(date))
